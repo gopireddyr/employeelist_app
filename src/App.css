@@ -1,0 +1,56 @@
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-footer {
+    min-height: 10vh;
+    position: fixed;
+    display: block;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #282c34;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+ 
+}
+#AddEmp-button{
+
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+
+}
+
+.cart{
+  width:50%;
+  height: 100%;
+  margin-left: 25%;
+}
+.form-group,.form-control,#AddSubmitbtn{
+  margin-top: 10px;
+}
+.buttons{
+  float: right;
+}
+#submitbtn,#cancelbtn{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+#updatebtn,#deletebtn,#viewbtn{
+  margin-left: 10%;
+}
